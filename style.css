@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.container{
+    background-color: white;
+    /* border: 2px solid black; */
+    color: black;
+    width: 1000px;
+    margin: 100px auto;
+    border-radius: 30px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.container .form{
+    position: relative;
+    width: 30%;
+    padding: 20px;
+    /* background-color: green; */
+}
+.form form{
+    position: relative;
+    width: 100%;
+}
+.group{
+    position: relative;
+    width: 100%;
+    /* background-color: lightgray; */
+}
+.group input{
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+}
+
+.group select{
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+}
+.form label{
+    display: block;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.grid-2 .group{
+    position: relative;
+    width: 100%;
+}
+.group button{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container .data{
+    width: 70%;
+    /* background-color: lightgray; */
+    padding: 20px;
+}
+
+.data table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.data table th,
+.data table td{
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+table button{
+    padding: 3px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.edit-btn{
+    background-color: blue;
+    color: white;
+}
+.view-btn{
+    background-color: green;
+    color: white;
+}
+.delete-btn{
+    background-color: red;
+    color: white;
+}
